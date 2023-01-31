@@ -1,7 +1,6 @@
 // Add imports above this line
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
-
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
@@ -29,4 +28,3 @@ function createGalleryImgMarkup(galleryItems) {
     captionDelay: 250,
     scrollZoom: false,
   });
-
