@@ -21,11 +21,11 @@ function onFormInput(e) {
 
 function onFormSubmit(e) {
     e.preventDefault();
-    console.log({options});
-
+    
+    console.log(options);
     e.currentTarget.reset();
     localStorage.removeItem(KEY_LOCALSTORAGE);
-    
+   
 };
 
 function getStorageData() {
@@ -38,11 +38,11 @@ function getStorageData() {
     };
         if(parseData.message) {  
         formObject.message.value = parseData.message
-}
+    }
 };
-
+}
 getStorageData();
 
-}
+
 
 
